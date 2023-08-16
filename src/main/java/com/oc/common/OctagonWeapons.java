@@ -3,18 +3,13 @@ package com.oc.common;
 import com.fmum.common.FMUM;
 import com.fmum.common.pack.FolderPack;
 import com.fmum.common.pack.IContentPack;
-import com.fmum.common.pack.ILoadablePack;
+import com.fmum.common.pack.IContentPackFactory;
 import com.fmum.common.pack.JarPack;
 import net.minecraftforge.fml.common.Loader;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.ModContainer;
-import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
-
-import java.io.File;
-import java.util.function.Function;
-import java.util.function.Supplier;
 
 @Mod(
 	modid = "oc",
@@ -23,9 +18,9 @@ import java.util.function.Supplier;
 	acceptedMinecraftVersions = "1.12.2",
 	dependencies = "required-after:" + FMUM.MODID
 )
-public final class OctagonWeapons implements ILoadablePack
+public final class OctagonWeapons implements IContentPackFactory
 {
-	private final ILoadablePack wrapped_pack;
+	private final IContentPackFactory wrapped_pack;
 	
 	public OctagonWeapons()
 	{
@@ -40,13 +35,13 @@ public final class OctagonWeapons implements ILoadablePack
 	}
 	
 	@Override
-	public Function< ILoadContext, Supplier< IContentPack > >
-		prepareLoadServerSide( IPrepareContext ctx )
-	{ return this.wrapped_pack.prepareLoadServerSide( ctx ); }
+	public IContentPack createServerSide( IPrepareContext ctx ) {
+		return this.wrapped_pack.createServerSide( ctx );
+	}
 	
 	@Override
 	@SideOnly( Side.CLIENT )
-	public Function< ILoadContext, Supplier< IContentPack > >
-		prepareLoadClientSide( IPrepareContext ctx )
-	{ return this.wrapped_pack.prepareLoadClientSide( ctx ); }
+	public IContentPack createClientSide( IPrepareContext ctx ) {
+		return this.wrapped_pack.createClientSide( ctx );
+	}
 }
