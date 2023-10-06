@@ -1,0 +1,111 @@
+{
+	"__type__": "gun",
+	
+	"creative_tab": "oc",
+	"_model": "models/gun/hk416/lower_receiver.json",
+	"texture": "textures/gun/hk416_d10rs.png",
+	
+	"_fire_controllers": {
+		"safe_mode": { },
+		"full_auto": { "rpm": 600 },
+		"semi_auto": { "rpm": 600 }
+	},
+	"catch_bolt_on_empty": true,
+	
+	"static_bolt_release": "animations/hk416_static.json",
+	"static_bolt_catch": "animations/hk416_static-bolt_catch.json",
+	"shoot_animation": "animations/hk416_shoot.json",
+	"shoot_bolt_catch_animation": "animations/hk416_shoot-bolt_catch.json",
+	
+	"load_mag_controller_dispatcher": [
+		{
+			"animation": "animations/hk416_load_mag.json",
+			"progressor": 0.0324317,
+			"effects": { "0.616203": "" },
+			"sounds": { "0.454044": "hk416_load_mag" }
+		}
+	],
+	
+	"unload_mag_controller_dispatcher": [
+		{
+			"animation": "animations/hk416_unload_mag.json",
+			"progressor": 0.04,
+			"effects": { "0.328": "" },
+			"sounds": { "0.2": "hk416_unload_mag" }
+		}
+	],
+	
+	"charge_gun_controller_dispatcher": [
+		{
+			"animation": "animations/hk416_charge-release-release.json",
+			"clear_static_animation": true,
+			"progressor": 0.0479998,
+			"effects": { "0.431998": "" },
+			"ignore_mag": true
+		},
+		{
+			"animation": "animations/hk416_charge-release-catch.json",
+			"clear_static_animation": true,
+			"progressor": 0.0479998,
+			"effects": { "0.431998": "" },
+			"bolt_catch_after_action": true,
+			"ignore_mag": true
+		},
+		{
+			"animation": "animations/hk416_charge-catch-release.json",
+			"clear_static_animation": true,
+			"progressor": 0.0479998,
+			"effects": { "0.431998": "" },
+			"bolt_catch_before_action": true,
+			"ignore_mag": true
+		},
+		{
+			"animation": "animations/hk416_charge-catch-catch.json",
+			"clear_static_animation": true,
+			"progressor": 0.0479998,
+			"effects": { "0.431998": "" },
+			"bolt_catch_before_action": true,
+			"bolt_catch_after_action": true,
+			"ignore_mag": true
+		}
+	],
+	"release_bolt_controller_dispatcher": [
+		{
+			"animation": "animations/hk416_release-bolt_catch.json",
+			"clear_static_animation": true,
+			"progressor": 0.0545453,
+			"effects": { "0.447271": "" },
+			"sounds": { "0.447271": "hk416_release_bolt" },
+			"bolt_catch_before_action": true
+		}
+	],
+	
+	"inspect_controller_dispatcher": [
+		{
+			"animation": "animations/hk416_inspect-bolt_release.json",
+			"clear_static_animation": true,
+			"progressor": 0.0179102
+		}
+	],
+	
+	"param_scale": 0.00625,
+	"slots": [
+		{
+			"origin": [ 0, 40, -15.5 ],
+			"allowed": [ "556x45mm_mag" ]
+		}, {
+			"origin": [ 0, 36.5, 4.5 ],
+			"allowed": [ "hk416_upper_receiver" ]
+		}, {
+			"origin": [ 0, 43, -49 ],
+			"allowed": [ "ar_buffer_tube" ]
+		}, {
+			"origin": [ 0, 35.5, -52.5 ],
+			"allowed": [ "ar_receiver_end_plate" ]
+		}, {
+			"origin": [ 0, 28, -34 ],
+			"rot_z": 180,
+			"allowed": [ "ar_pistol_grip" ]
+		}
+	]
+}

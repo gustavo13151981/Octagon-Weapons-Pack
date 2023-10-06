@@ -1,0 +1,13 @@
+{
+	"creative_tab": "oc",
+	"_model": "models/gun/hk416/barrel_extension.json",
+	"texture": "textures/gun/hk416_d10rs.png",
+	
+	"param_scale": 0.00625,
+	"slots": [
+		{
+			"origin": [ 0, 0, 1 ],
+			"allowed": [ "hk416_barrel" ]
+		}
+	]
+}

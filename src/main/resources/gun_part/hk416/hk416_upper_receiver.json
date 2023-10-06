@@ -1,0 +1,40 @@
+{
+	"creative_tab": "oc",
+	"_model": "models/gun/hk416/upper_receiver.json",
+	"texture": "textures/gun/hk416_d10rs.png",
+	
+	"param_scale": 0.00625,
+	"slots": [
+		{
+			"origin": [ 0, 17.5, -39.5 ],
+			"step_len": 4,
+			"max_step": 9,
+			"capacity": 8,
+			"allowed": [ "prb" ]
+		},
+		{
+			"origin": [ 0, 6.5, 7.5 ],
+			"allowed": [ "hk416_barrel_extension" ]
+		},
+		{
+			"origin": [ 0, 6.5, 1.5 ],
+			"allowed": [ "hk416_barrel_nut" ]
+		},
+		{
+			"origin": [ 0, 12.5, 1.5 ],
+			"allowed": [ "hk416_piston_guide" ]
+		},
+		{
+			"origin": [ 0, 6.5, -1.5 ],
+			"allowed": [ "hk416_bolt" ]
+		},
+		{
+			"origin": [ 0, 12, -48.5 ],
+			"allowed": [ "ar_charge_handle" ]
+		},
+		{
+			"origin": [ -5, 4, -13.5 ],
+			"allowed": [ "ar_dust_cover" ]
+		}
+	]
+}

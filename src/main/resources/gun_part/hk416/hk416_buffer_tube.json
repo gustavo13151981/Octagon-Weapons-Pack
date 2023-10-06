@@ -1,0 +1,16 @@
+{
+	"creative_tab": "oc",
+	"_model": "models/gun/hk416/buffer_tube.json",
+	"texture": "textures/gun/hk416_d10rs.png",
+	
+	"category": "ar_buffer_tube",
+	"param_scale": 0.00625,
+	"slots": [
+		{
+			"origin": [ 0, 0, -54.5 ],
+			"step_len": 6,
+			"max_step": 5,
+			"allowed": [ "ar_stock" ]
+		}
+	]
+}
