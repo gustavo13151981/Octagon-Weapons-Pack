@@ -6,12 +6,11 @@ plugins {
 }
 
 version = '0.1.0-dev'
-group = 'com.oc' // See http://maven.apache.org/guides/mini/guide-naming-conventions.html
+group = 'gsf.oc' // See http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = '[MC-1.12.2] Octagon Weapons 2.0 v'
 
 // Need this here to correctly generate the Eclipse task.
-sourceCompatibility = targetCompatibility = '1.8'
-compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8'
+java.toolchain.languageVersion = JavaLanguageVersion.of(8)
 
 minecraft {
 	// The mappings can be changed at any time, and must be in the following format.
@@ -48,6 +47,12 @@ minecraft {
 	}
 }
 
+repositories {
+	flatDir {
+		dirs 'libs'
+	}
+}
+
 dependencies {
 	// Specify the version of Minecraft to use, If this is any group other then 'net.minecraft' it is assumed
 	// that the dep is a ForgeGradle 'patcher' dependency. And it's patches will be applied.
@@ -57,7 +62,7 @@ dependencies {
 	// You may put jars on which you depend on in ./libs or you may define them like so..
 //	compile "some.group:artifact:version:classifier"
 //	compile "some.group:artifact:version"
-	compileOnly files("lib/fmum.jar")
+	implementation fg.deobf("com.fmum:fmum:0.1.0-dev")
 
 	// Real examples
 //	compile 'com.mod-buildcraft:buildcraft:6.0.8:dev'  // adds buildcraft to the dev env
@@ -77,21 +82,21 @@ dependencies {
 // Example for how to get properties into the manifest for reading by the runtime.
 jar {
 	manifest {
-		attributes( [
+		attributes([
 			"Specification-Title": project.name,
 			"Specification-Vendor": "Giant_Salted_Fish",
 			"Specification-Version": "1",  // We are version 1 of ourselves.
 			"Implementation-Title": project.name,
 			"Implementation-Version": "${version}",
-			"Implementation-Vendor" :"Giant_Salted_Fish",
+			"Implementation-Vendor": "Giant_Salted_Fish",
 			"Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
-		] )
+		])
 	}
 }
 
 // Example configuration to allow publishing using the maven-publish task.
 // This is the preferred method to reobfuscate your jar file.
-jar.finalizedBy('reobfJar') 
+jar.finalizedBy('reobfJar')
 // However if you are in a multi-project build, dev time needs unobfed jar files, so you can delay the obfuscation until publishing by doing.
 //publish.dependsOn('reobfJar')
 
