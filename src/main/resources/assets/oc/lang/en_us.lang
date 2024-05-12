@@ -16,7 +16,7 @@ item.556x45mm_m855.name=5.56x45mm M855
 item.556x45mm_m855_misfire.name=5.56x45mm M855 Misfire
 item.556x45mm_m855a1.name=5.56x45mm M855A1 EPR
 item.556x45mm_m855a1_misfire.name=5.56x45mm M855A1 EPR Misfire
-item.556x45mm_case.name=5.56x45mm Case
+item.556x45mm_shell.name=5.56x45mm Shell
 
 # H&K416
 item.hk416_d10rs.name=H&K416 D10RS

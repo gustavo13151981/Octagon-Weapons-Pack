@@ -1,9 +1,7 @@
 {
 	"creative_tab": "oc",
-	"_model": "models/gun/hk416/upper_receiver.json",
-	"texture": "textures/gun/hk416_d10rs.png",
-	
-	"param_scale": 0.00625,
+	"model": "oc:models/hk416/upper_receiver.json",
+	"texture": "oc:textures/hk416_d10rs.png",
 	"slots": [
 		{
 			"origin": [ 0, 17.5, -39.5 ],

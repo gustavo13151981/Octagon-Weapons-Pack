@@ -1,10 +1,9 @@
 {
 	"creative_tab": "oc",
 	"category": "hk416_barrel",
-	"_model": "models/gun/hk416/104_barrel.json",
-	"texture": "textures/gun/hk416_d10rs.png",
+	"model": "oc:models/hk416/104_barrel.obj",
+	"texture": "oc:textures/hk416_d10rs.png",
 	
-	"param_scale": 0.00625,
 	"slots": [
 		{
 			"origin": [ 0, 0, 69 ],

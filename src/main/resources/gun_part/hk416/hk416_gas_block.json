@@ -1,9 +1,8 @@
 {
 	"creative_tab": "oc",
-	"_model": "models/gun/hk416/gas_block.json",
-	"texture": "textures/gun/hk416_d10rs.png",
+	"model": "oc:models/hk416/gas_block.json",
+	"texture": "oc:textures/hk416_d10rs.png",
 	
-	"param_scale": 0.00625,
 	"slots": [
 		{
 			"origin": [ 0, 4.5, 6 ],

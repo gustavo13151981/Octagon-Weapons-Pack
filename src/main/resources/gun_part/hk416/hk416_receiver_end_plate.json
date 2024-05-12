@@ -1,10 +1,8 @@
 {
 	"creative_tab": "oc",
-	"_model": "models/gun/hk416/receiver_end_plate.json",
-	"texture": "textures/gun/hk416_d10rs.png",
-	
+	"model": "oc:models/hk416/receiver_end_plate.obj",
+	"texture": "oc:textures/hk416_d10rs.png",
 	"category": "ar_receiver_end_plate",
-	"param_scale": 0.00625,
 	"slots": [
 		{
 			"origin": [ 0, 7.5, -0.5 ],

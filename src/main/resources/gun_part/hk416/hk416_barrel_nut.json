@@ -1,9 +1,8 @@
 {
 	"creative_tab": "oc",
-	"_model": "models/gun/hk416/barrel_nut.json",
-	"texture": "textures/gun/hk416_d10rs.png",
+	"model": "oc:models/hk416/barrel_nut.obj",
+	"texture": "oc:textures/hk416_d10rs.png",
 	
-	"param_scale": 0.00625,
 	"slots": [
 		{
 			"allowed": [ "hk416_handguard" ]

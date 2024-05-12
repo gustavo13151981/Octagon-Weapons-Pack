@@ -1,10 +1,9 @@
 {
 	"creative_tab": "oc",
-	"_model": "models/gun/hk416/buffer_tube.json",
-	"texture": "textures/gun/hk416_d10rs.png",
+	"model": "oc:models/hk416/buffer_tube.obj",
+	"texture": "oc:textures/hk416_d10rs.png",
 	
 	"category": "ar_buffer_tube",
-	"param_scale": 0.00625,
 	"slots": [
 		{
 			"origin": [ 0, 0, -54.5 ],

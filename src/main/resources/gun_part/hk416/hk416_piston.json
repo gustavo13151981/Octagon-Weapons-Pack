@@ -1,5 +1,5 @@
 {
 	"creative_tab": "oc",
-	"_model": "models/gun/hk416/piston.json",
-	"texture": "textures/gun/hk416_d10rs.png"
+	"model": "oc:models/hk416/piston.json",
+	"texture": "oc:textures/hk416_d10rs.png"
 }
