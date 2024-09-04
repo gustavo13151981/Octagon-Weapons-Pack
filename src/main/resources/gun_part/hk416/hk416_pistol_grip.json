@@ -3,6 +3,7 @@
 	"category": "ar_pistol_grip",
 	"model": "oc:models/hk416/pistol_grip.obj",
 	"texture": "oc:textures/hk416_d10rs.png",
-	
+	"fp_scale": 0.1,
+	"fp_pos": [ -0.25, -0.3125, 0.625 ],
 	"rightHandPriority": 512
 }

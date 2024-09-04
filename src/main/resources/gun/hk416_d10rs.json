@@ -1,99 +1,125 @@
 {
 	"creative_tab": "oc",
-	"_model": "models/gun/hk416/lower_receiver.json",
-	"texture": "textures/gun/hk416_d10rs.png",
-
-	"param_scale": 0.00625,
+	"model": "oc:models/hk416/lower_receiver.obj",
+	"texture": "oc:textures/hk416_d10rs.png",
+	"fp_scale": 0.1,
+	"modify_pos": [ 0, -0.15625, 0.96875 ],
+	"placeholder_scale": 0.0625,
 	"slots": [
 		{
-			"origin": [ 0, 40, -15.5 ],
+			"origin": [ 0, 0.25, -0.096875 ],
 			"allowed": [ "556x45mm_mag" ]
-		}, {
-			"origin": [ 0, 36.5, 4.5 ],
+		},
+		{
+			"origin": [ 0, 0.228125, 0.028125 ],
 			"allowed": [ "hk416_upper_receiver" ]
-		}, {
-			"origin": [ 0, 43, -49 ],
+		},
+		{
+			"origin": [ 0, 0.26875, -0.30625 ],
 			"allowed": [ "ar_buffer_tube" ]
-		}, {
-			"origin": [ 0, 35.5, -52.5 ],
+		},
+		{
+			"origin": [ 0, 0.221875, -0.328125 ],
 			"allowed": [ "ar_receiver_end_plate" ]
-		}, {
-			"origin": [ 0, 28, -34 ],
-			"rotZ": 180,
+		},
+		{
+			"origin": [ 0, 0.175, -0.2125 ],
+			"rot_z": 180,
 			"allowed": [ "ar_pistol_grip" ]
 		}
 	],
-	"snapshot": {
+	"default_setup": {
 		"slots": [
-			[ {
-				"module": "556x45mm_30_round_mag"
-			} ], [ {
-				"module": "hk416_upper_receiver",
-				"slots": [
-					[ {
-						"module": "cic_is4_rear_sight",
-						"step": 1
-					} ], [ {
-						"module": "hk416_barrel_extension",
-						"slots": [
-							[ {
-								"module": "hk416_104_barrel",
+			{
+				"556x45mm_30_round_mag": { }
+			},
+			{
+				"hk416_upper_receiver": {
+					"slots": [
+						{
+							"cic_is4_rear_sight": {
+								"step": 1
+							}
+						},
+						{
+							"hk416_barrel_extension": {
 								"slots": [
-									[ {
-										"module": "556mm_thread_protector"
-									} ], [ {
-										"module": "hk416_gas_block",
-										"slots": [
-											[ {
-												"module": "hk416_front_sight"
-											} ], [ {
-												"module": "hk416_piston"
-											} ]
-										]
-									} ]
+									{
+										"hk416_104_barrel": {
+											"slots": [
+												{
+													"556mm_thread_protector": { }
+												},
+												{
+													"hk416_gas_block": {
+														"slots": [
+															{
+																"hk416_front_sight": { }
+															},
+															{
+																"hk416_piston": { }
+															}
+														]
+													}
+												}
+											]
+										}
+									}
 								]
-							} ]
-						]
-					} ], [ {
-						"module": "hk416_barrel_nut",
-						"slots": [
-							[ {
-								"module": "hk416_handguard"
-							} ]
-						]
-					} ], [ {
-						"module": "hk416_piston_guide"
-					} ], [ {
-						"module": "hk416_bolt"
-					} ], [ {
-						"module": "hk416_charge_handle"
-					} ], [ {
-						"module": "hk416_dust_cover"
-					} ]
-				]
-			} ], [ {
-				"module": "hk416_buffer_tube",
-				"slots": [
-					[ {
-						"module": "lmt_stock",
-						"step": 3,
-						"slots": [
-							[ {
-								"module": "lmt_stock_butt_pad"
-							} ]
-						]
-					} ]
-				]
-			} ], [ {
-				"module": "hk416_receiver_end_plate",
-				"slots": [
-					[ {
-						"module": "hk416_receiver_extension_nut"
-					} ]
-				]
-			} ], [ {
-				"module": "hk416_pistol_grip"
-			} ]
+							}
+						},
+						{
+							"hk416_barrel_nut": {
+								"slots": [
+									{
+										"hk416_handguard": { }
+									}
+								]
+							}
+						},
+						{
+							"hk416_piston_guide": { }
+						},
+						{
+							"hk416_bolt": { }
+						},
+						{
+							"hk416_charge_handle": { }
+						},
+						{
+							"hk416_dust_cover": { }
+						}
+					]
+				}
+			},
+			{
+				"hk416_buffer_tube": {
+					"slots": [
+						{
+							"lmt_stock": {
+								"step": 3,
+								"slots": [
+									{
+										"lmt_stock_butt_pad": { }
+									}
+								]
+							}
+						}
+					]
+				}
+			},
+			{
+				"hk416_receiver_end_plate": {
+					"slots": [
+						{
+							"hk416_receiver_extension_nut": { }
+						}
+					]
+				}
+			},
+			{
+				"hk416_pistol_grip": { }
+			}
 		]
 	}
 }

@@ -1,5 +1,15 @@
 {
 	"creative_tab": "oc",
-	"model": "oc:models/hk416/bolt.obj",
-	"texture": "oc:textures/hk416_d10rs.png"
+	"model": [
+		{
+			"model": "oc:models/hk416/bolt_carrier.obj"
+		},
+		{
+			"model": "oc:models/hk416/bolt.obj",
+			"anim_channel": "bolt"
+		}
+	],
+	"texture": "oc:textures/hk416_d10rs.png",
+	"fp_scale": 0.1,
+	"fp_pos": [ -0.25, -0.3125, 0.625 ]
 }

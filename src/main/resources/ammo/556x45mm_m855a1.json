@@ -3,8 +3,8 @@
 	"category": "556x45mm",
 	"model": "oc:models/556x45mm.obj",
 	"texture": "oc:textures/556x45mm_m855a1.png",
-	"fp_scale": 0.0625,
-	"fp_pos": [ -0.13125, -0.096875, 0.1875 ],
+	"fp_scale": 0.1,
+	"fp_pos": [ -0.21875, -0.25, 0.53125 ],
 	"fp_rot": [ -90, 0, 0 ],
 	"shell": "556x45mm_shell"
 }

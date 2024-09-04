@@ -1,5 +1,7 @@
 {
 	"creative_tab": "oc",
 	"model": "oc:models/hk416/piston_guide.obj",
-	"texture": "oc:textures/hk416_d10rs.png"
+	"texture": "oc:textures/hk416_d10rs.png",
+	"fp_scale": 0.1,
+	"fp_pos": [ -0.25, -0.3125, 0.625 ]
 }

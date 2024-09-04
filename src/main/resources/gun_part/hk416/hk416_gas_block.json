@@ -1,15 +1,17 @@
 {
 	"creative_tab": "oc",
-	"model": "oc:models/hk416/gas_block.json",
+	"model": "oc:models/hk416/gas_block.obj",
 	"texture": "oc:textures/hk416_d10rs.png",
-	
+	"fp_scale": 0.1,
+	"fp_pos": [ -0.25, -0.3125, 0.625 ],
+	"placeholder_scale": 0.0625,
 	"slots": [
 		{
-			"origin": [ 0, 4.5, 6 ],
+			"origin": [ 0, 0.028125, 0.0375 ],
 			"allowed": [ "hk416_front_sight" ]
 		},
 		{
-			"origin": [ 0, 6, -8 ],
+			"origin": [ 0, 0.0375, -0.05 ],
 			"allowed": [ "hk416_piston" ]
 		}
 	]

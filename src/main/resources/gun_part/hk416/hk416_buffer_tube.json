@@ -1,14 +1,16 @@
 {
 	"creative_tab": "oc",
+	"category": "ar_buffer_tube",
 	"model": "oc:models/hk416/buffer_tube.obj",
 	"texture": "oc:textures/hk416_d10rs.png",
-	
-	"category": "ar_buffer_tube",
+	"fp_scale": 0.1,
+	"fp_pos": [ -0.25, -0.3125, 0.625 ],
+	"placeholder_scale": 0.0625,
 	"slots": [
 		{
-			"origin": [ 0, 0, -54.5 ],
-			"step_len": 6,
-			"max_step": 5,
+			"origin": [ 0, 0, -0.340625 ],
+			"step_len": 0.0375,
+			"max_step": 0.03125,
 			"allowed": [ "ar_stock" ]
 		}
 	]

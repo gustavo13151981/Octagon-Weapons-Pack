@@ -1,7 +1,9 @@
 {
 	"creative_tab": "oc",
+	"category": "ar_charge_handle",
 	"model": "oc:models/hk416/charge_handle.obj",
 	"texture": "oc:textures/hk416_d10rs.png",
-	
-	"category": "ar_charge_handle"
+	"fp_scale": 0.1,
+	"fp_pos": [ -0.25, -0.3125, 0.625 ],
+	"placeholder_scale": 0.0625
 }

@@ -3,14 +3,16 @@
 	"category": "hk416_barrel",
 	"model": "oc:models/hk416/104_barrel.obj",
 	"texture": "oc:textures/hk416_d10rs.png",
-	
+	"fp_scale": 0.1,
+	"fp_pos": [ -0.25, -0.3125, 0.625 ],
+	"placeholder_scale": 0.0625,
 	"slots": [
 		{
-			"origin": [ 0, 0, 69 ],
+			"origin": [ 0, 0, 0.43125 ],
 			"allowed": [ "556mm_muzzle" ]
 		},
 		{
-			"origin": [ 0, 0, 57 ],
+			"origin": [ 0, 0, 0.35625 ],
 			"allowed": [ "hk416_gas_block" ]
 		}
 	]

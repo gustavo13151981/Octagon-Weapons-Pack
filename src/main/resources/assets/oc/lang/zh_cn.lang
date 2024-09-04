@@ -1,8 +1,8 @@
 # 由 一条大大的咸鱼 提供
 
 # 内容包概要
-oc.pack=八边形枪械包
-oc.author=一条大大的咸鱼
+pack.oc=八边形枪械包
+author.oc=一条大大的咸鱼
 
 # 创造模式物品栏
 itemGroup.oc=八边形枪械包

@@ -4,6 +4,10 @@
 	"creative_tab": "oc",
 	"model": "oc:models/hk416/lower_receiver.obj",
 	"texture": "oc:textures/hk416_d10rs.png",
+	"fp_scale": 0.1,
+	"fp_pos": [ -0.25, -0.3125, 0.625 ],
+	"modify_pos": [ 0, -0.15625, 0.96875 ],
+	"placeholder_scale": 0.0625,
 	
 	"_fire_controllers": {
 		"safe_mode": { },
@@ -110,19 +114,19 @@
 	
 	"slots": [
 		{
-			"origin": [ 0, 40, -15.5 ],
+			"origin": [ 0, 0.25, -0.096875 ],
 			"allowed": [ "556x45mm_mag" ]
 		}, {
-			"origin": [ 0, 36.5, 4.5 ],
+			"origin": [ 0, 0.228125, 0.028125 ],
 			"allowed": [ "hk416_upper_receiver" ]
 		}, {
-			"origin": [ 0, 43, -49 ],
+			"origin": [ 0, 0.26875, -0.30625 ],
 			"allowed": [ "ar_buffer_tube" ]
 		}, {
-			"origin": [ 0, 35.5, -52.5 ],
+			"origin": [ 0, 0.221875, -0.328125 ],
 			"allowed": [ "ar_receiver_end_plate" ]
 		}, {
-			"origin": [ 0, 28, -34 ],
+			"origin": [ 0, 0.175, -0.2125 ],
 			"rot_z": 180,
 			"allowed": [ "ar_pistol_grip" ]
 		}

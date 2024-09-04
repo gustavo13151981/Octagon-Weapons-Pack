@@ -1,8 +1,8 @@
 # By Giant_Salted_Fish
 
 # Content pack info
-oc.pack=Octagon Weapons Pack
-oc.author=Giant Salted Fish
+pack.oc=Octagon Weapons Pack
+author.oc=Giant Salted Fish
 
 # Creative tab
 itemGroup.oc=Octagon Weapons

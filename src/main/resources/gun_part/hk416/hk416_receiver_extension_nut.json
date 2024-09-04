@@ -1,6 +1,8 @@
 {
 	"creative_tab": "oc",
+	"category": "ar_receiver_extension_nut",
 	"model": "oc:models/hk416/receiver_extension_nut.obj",
 	"texture": "oc:textures/hk416_d10rs.png",
-	"category": "ar_receiver_extension_nut"
+	"fp_scale": 0.1,
+	"fp_pos": [ -0.25, -0.3125, 0.625 ]
 }
