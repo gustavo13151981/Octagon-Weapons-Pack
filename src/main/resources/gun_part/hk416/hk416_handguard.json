@@ -11,7 +11,7 @@
 			"step_len": 0.025,
 			"max_step": 14,
 			"capacity": 8,
-			"allowed": [ "prb" ]
+			"allowed": "prb"
 		},
 		{
 			"origin": [ 0, -0.05625, 0.025 ],
@@ -19,7 +19,7 @@
 			"step_len": 0.025,
 			"max_step": 14,
 			"capacity": 8,
-			"allowed": [ "prb" ]
+			"allowed": "prb"
 		},
 		{
 			"origin": [ 0.05625, 0, 0.03125 ],
@@ -27,7 +27,7 @@
 			"step_len": 0.025,
 			"max_step": 14,
 			"capacity": 8,
-			"allowed": [ "prb" ]
+			"allowed": "prb"
 		},
 		{
 			"origin": [ -0.05625, 0, 0.03125 ],
@@ -35,7 +35,7 @@
 			"step_len": 0.025,
 			"max_step": 14,
 			"capacity": 8,
-			"allowed": [ "prb" ]
+			"allowed": "prb"
 		}
 	],
 	"leftHandPriority": 256

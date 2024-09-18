@@ -9,7 +9,7 @@
 	"slots": [
 		{
 			"origin": [ 0, 0.046875, -0.003125 ],
-			"allowed": [ "ar_receiver_extension_nut" ]
+			"allowed": "ar_receiver_extension_nut"
 		}
 	]
 }

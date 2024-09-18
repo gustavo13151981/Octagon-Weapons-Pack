@@ -9,11 +9,11 @@
 	"slots": [
 		{
 			"origin": [ 0, 0, 0.43125 ],
-			"allowed": [ "556mm_muzzle" ]
+			"allowed": "556mm_muzzle"
 		},
 		{
 			"origin": [ 0, 0, 0.35625 ],
-			"allowed": [ "hk416_gas_block" ]
+			"allowed": "hk416_gas_block"
 		}
 	]
 }

@@ -8,24 +8,24 @@
 	"slots": [
 		{
 			"origin": [ 0, 0.25, -0.096875 ],
-			"allowed": [ "556x45mm_mag" ]
+			"allowed": "556x45mm_mag"
 		},
 		{
 			"origin": [ 0, 0.228125, 0.028125 ],
-			"allowed": [ "hk416_upper_receiver" ]
+			"allowed": "hk416_upper_receiver"
 		},
 		{
 			"origin": [ 0, 0.26875, -0.30625 ],
-			"allowed": [ "ar_buffer_tube" ]
+			"allowed": "ar_buffer_tube"
 		},
 		{
 			"origin": [ 0, 0.221875, -0.328125 ],
-			"allowed": [ "ar_receiver_end_plate" ]
+			"allowed": "ar_receiver_end_plate"
 		},
 		{
 			"origin": [ 0, 0.175, -0.2125 ],
 			"rot_z": 180,
-			"allowed": [ "ar_pistol_grip" ]
+			"allowed": "ar_pistol_grip"
 		}
 	],
 	"default_setup": {

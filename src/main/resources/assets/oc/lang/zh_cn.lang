@@ -1,4 +1,4 @@
-# 由 一条大大的咸鱼 提供
+# 提供者 一条大大的咸鱼
 
 # 内容包概要
 pack.oc=八边形枪械包
@@ -8,14 +8,10 @@ author.oc=一条大大的咸鱼
 itemGroup.oc=八边形枪械包
 
 # 对话框提示消息
-fmum.msg.burst_3=三连发
-fmum.msg.burst_2=两连发
 
 # 弹药
 item.556x45mm_m855.name=5.56x45毫米 M855 弹药
-item.556x45mm_m855_misfire.name=5.56x45毫米 M855 哑火弹
 item.556x45mm_m855a1.name=5.56x45毫米 M855A1 EPR 弹药
-item.556x45mm_m855a1_misfire.name=5.56x45毫米 M855A1 EPR 哑火弹
 item.556x45mm_shell.name=5.56x45毫米铜壳
 
 # H&K416
@@ -73,8 +69,8 @@ item.cic_is9_rear_sight-tritium_red.name=CIC IS-9 照门 - 红氚光
 item.cic_is9_rear_sight-tritium_white.name=CIC IS-9 照门 - 白氚光
 
 # 光瞄
-item.kobra_ekp8mpp.name=Kobra EKP-8M-PP 反射式红点瞄具
-item.eotech_exps30.name=Eotech EXPS3-0 全息瞄具
+item.kobra_ekp8mpp.name=Kobra EKP-8M-PP
+item.eotech_exps30.name=Eotech EXPS3-0
 
 # 握把
 item.td_grip.name=TD 握把

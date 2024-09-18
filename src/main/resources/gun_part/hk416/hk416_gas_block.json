@@ -8,11 +8,11 @@
 	"slots": [
 		{
 			"origin": [ 0, 0.028125, 0.0375 ],
-			"allowed": [ "hk416_front_sight" ]
+			"allowed": "hk416_front_sight"
 		},
 		{
 			"origin": [ 0, 0.0375, -0.05 ],
-			"allowed": [ "hk416_piston" ]
+			"allowed": "hk416_piston"
 		}
 	]
 }

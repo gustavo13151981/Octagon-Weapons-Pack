@@ -1,0 +1,24 @@
+{
+	"creative_tab": "oc",
+	"category": "556x45mm_mag.drum",
+	"model": "oc:models/mag/x_products_x15_556x45mm_50_round_drum.obj",
+	"texture": "oc:textures/hk416_d10rs.png",
+	"fp_scale": 0.1,
+	"fp_pos": [ -0.25, -0.3125, 0.625 ],
+	"allowed_ammo": "556x45mm",
+	"capacity": 50,
+	"follower_model": "oc:models/mag/x_products_x15_556x45mm_50_round_drum_follower.obj",
+	"follower_pos": [
+		[ 0, 0, 0 ],
+		[ 0, -0.00625, 0 ],
+		[ 0, -0.01875, 0 ],
+		[ 0, -0.03125, 0 ],
+		[ 0, -0.04375, 0 ]
+	],
+	"ammo_pos": [
+		[ -0.0046875, 0.0015625, 0.003125 ],
+		[ -0.0046875, -0.0109375, 0.003125 ],
+		[ -0.0046875, -0.0234375, 0.003125 ],
+		[ -0.0046875, -0.0359375, 0.003125 ]
+	]
+}

@@ -11,31 +11,31 @@
 			"step_len": 0.025,
 			"max_step": 9,
 			"capacity": 8,
-			"allowed": [ "prb" ]
+			"allowed": "prb"
 		},
 		{
 			"origin": [ 0, 0.040625, 0.046875 ],
-			"allowed": [ "hk416_barrel_extension" ]
+			"allowed": "hk416_barrel_extension"
 		},
 		{
 			"origin": [ 0, 0.040625, 0.009375 ],
-			"allowed": [ "hk416_barrel_nut" ]
+			"allowed": "hk416_barrel_nut"
 		},
 		{
 			"origin": [ 0, 0.078125, 0.009375 ],
-			"allowed": [ "hk416_piston_guide" ]
+			"allowed": "hk416_piston_guide"
 		},
 		{
 			"origin": [ 0, 0.040625, -0.009375 ],
-			"allowed": [ "hk416_bolt" ]
+			"allowed": "hk416_bolt"
 		},
 		{
 			"origin": [ 0, 0.075, -0.303125 ],
-			"allowed": [ "ar_charge_handle" ]
+			"allowed": "ar_charge_handle"
 		},
 		{
 			"origin": [ -0.03125, 0.025, -0.084375 ],
-			"allowed": [ "ar_dust_cover" ]
+			"allowed": "ar_dust_cover"
 		}
 	]
 }
