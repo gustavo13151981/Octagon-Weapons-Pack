@@ -1,0 +1,8 @@
+{
+	"creative_tab": "oc",
+	"category": "ar_stock",
+	"model": "oc:models/stock/lmt_stock_butt_pad.obj",
+	"texture": "oc:textures/hk416_d10rs.png",
+	"fp_scale": 0.1,
+	"fp_pos": [ -0.25, -0.3125, 0.625 ]
+}

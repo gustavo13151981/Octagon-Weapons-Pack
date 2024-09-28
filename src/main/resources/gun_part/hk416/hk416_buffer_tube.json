@@ -10,7 +10,7 @@
 		{
 			"origin": [ 0, 0, -0.340625 ],
 			"step_len": 0.0375,
-			"max_step": 0.03125,
+			"max_step": 5,
 			"allowed": "ar_stock"
 		}
 	]
