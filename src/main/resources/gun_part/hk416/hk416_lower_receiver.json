@@ -9,6 +9,18 @@
 	"fp_rot": [ 0, 0, -5 ],
 	"modify_pos": [ 0, -0.15625, 0.96875 ],
 	"placeholder_scale": 0.0625,
+	"op_inspect": {
+		"tick_count": 56,
+		"animation": "oc:animations/hk416_inspect-bolt_release.json"
+	},
+	"op_load_mag": {
+		"tick_count": 31,
+		"tick_commit": 12,
+		"animation": "oc:animations/hk416_load_mag.json",
+		"sounds": {
+			"0.4": "fmum:load_mag"
+		}
+	},
 	
 	"_fire_controllers": {
 		"safe_mode": { },

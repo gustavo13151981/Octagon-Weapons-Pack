@@ -9,6 +9,7 @@
 	"capacity": 30,
 	"follower_model": "oc:models/mag/556x45mm_30_round_mag_follower.obj",
 	"is_dou_col_mag": true,
+	"mod_anim_channel": "mag",
 	"follower_pos": [
 		[ 0, 0, 0 ],
 		[ 0, -0.0046875, 0 ],
