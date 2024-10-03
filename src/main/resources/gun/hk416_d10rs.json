@@ -21,10 +21,18 @@
 	},
 	"op_load_mag": {
 		"tick_count": 31,
-		"tick_commit": 12,
+		"tick_commit": 19,
 		"animation": "oc:animations/hk416_load_mag.json",
 		"sounds": {
 			"0.454044": "fmum:load_mag"
+		}
+	},
+	"op_unload_mag": {
+		"tick_count": 25,
+		"tick_commit": 9,
+		"animation": "oc:animations/hk416_unload_mag.json",
+		"sounds": {
+			"0.2": "fmum:unload_mag"
 		}
 	},
 	"slots": [
