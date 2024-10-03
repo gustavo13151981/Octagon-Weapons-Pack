@@ -11,6 +11,10 @@
 		"tick_count": 18,
 		"animation": "oc:animations/hk416_take_out.json"
 	},
+	"op_put_away": {
+		"tick_count": 15,
+		"animation": "oc:animations/hk416_put_away.json"
+	},
 	"op_inspect": {
 		"tick_count": 56,
 		"animation": "oc:animations/hk416_inspect-bolt_release.json"
