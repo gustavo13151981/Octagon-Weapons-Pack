@@ -121,7 +121,7 @@
 				"0.9167": [0, 0, 0]
 			}
 		},
-		"loading_mag": {
+		"loading-mag": {
 			"parent": "left",
 			"position": {
 				"0.0": [0, -17, -159],
