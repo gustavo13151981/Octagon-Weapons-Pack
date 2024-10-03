@@ -9,6 +9,10 @@
 	"fp_rot": [ 0, 0, -5 ],
 	"modify_pos": [ 0, -0.15625, 0.96875 ],
 	"placeholder_scale": 0.0625,
+	"op_take_out": {
+		"tick_count": 18,
+		"animation": "oc:animations/hk416_take_out.json"
+	},
 	"op_inspect": {
 		"tick_count": 56,
 		"animation": "oc:animations/hk416_inspect-bolt_release.json"
