@@ -8,7 +8,7 @@
 	"slots": [
 		{
 			"origin": [ 0, 0.109375, -0.246875 ],
-			"step_len": 0.025,
+			"step": [ 0, 0, 0.025 ],
 			"max_step": 9,
 			"capacity": 8,
 			"allowed": "prb"

@@ -10,11 +10,11 @@
 	"modify_pos": [ 0, -0.15625, 0.96875 ],
 	"placeholder_scale": 0.0625,
 	"op_take_out": {
-		"tick_count": 18,
+		"tick_count": 14,
 		"animation": "oc:animations/hk416_take_out.json"
 	},
 	"op_put_away": {
-		"tick_count": 15,
+		"tick_count": 12,
 		"animation": "oc:animations/hk416_put_away.json"
 	},
 	"op_inspect": {
@@ -156,7 +156,7 @@
 			"allowed": "ar_receiver_end_plate"
 		}, {
 			"origin": [ 0, 0.175, -0.2125 ],
-			"rot_z": 180,
+			"rot": [ 0, 0, 180 ],
 			"allowed": "ar_pistol_grip"
 		}
 	]
