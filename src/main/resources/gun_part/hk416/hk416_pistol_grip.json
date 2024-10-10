@@ -1,4 +1,5 @@
 {
+	"__type__": "grip",
 	"creative_tab": "oc",
 	"category": "ar_pistol_grip",
 	"model": "oc:models/hk416/pistol_grip.obj",
@@ -6,5 +7,6 @@
 	"fp_scale": 0.1,
 	"fp_pos": [ -0.25, -0.3125, 0.625 ],
 	"fp_rot": [ 0, 0, 180 ],
-	"rightHandPriority": 512
+	"right_hand_prio": 512,
+	"right_grip_pos": [ 0, 0.09375, -0.03125 ]
 }

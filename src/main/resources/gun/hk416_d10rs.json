@@ -7,6 +7,10 @@
 	"fp_rot": [ 0, 0, -5 ],
 	"modify_pos": [ 0, -0.15625, 0.96875 ],
 	"placeholder_scale": 0.0625,
+	
+	"left_grip_pos":[ 0.03125, 0.125, 0.03125 ],
+	"right_grip_pos":[ -0.03125, 0.15625, -0.21875 ],
+	
 	"op_take_out": {
 		"tick_count": 14,
 		"animation": "oc:animations/hk416_take_out.json"

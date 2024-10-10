@@ -1,10 +1,13 @@
 {
+	"__type__": "grip",
 	"creative_tab": "oc",
 	"model": "oc:models/hk416/handguard.obj",
 	"texture": "oc:textures/hk416_d10rs.png",
 	"fp_scale": 0.1,
 	"fp_pos": [ -0.25, -0.3125, 0.625 ],
 	"placeholder_scale": 0.0625,
+	"left_hand_prio": 256,
+	"left_grip_pos": [ 0.03125, -0.0625, 0.34375 ],
 	"slots": [
 		{
 			"origin": [ 0, 0.06875, 0.01875 ],

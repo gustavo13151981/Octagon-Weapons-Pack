@@ -1,8 +1,11 @@
 {
+	"__type__": "grip",
 	"creative_tab": "oc",
 	"category": "prb",
 	"model": "oc:models/grip/td_grip.obj",
 	"texture": "oc:textures/grip.png",
 	"fp_scale": 0.1,
-	"fp_pos": [ -0.25, -0.3125, 0.625 ]
+	"fp_pos": [ -0.25, -0.3125, 0.625 ],
+	"left_hand_prio": 512,
+	"left_grip_pos": [ 0, 0.125, 0 ]
 }
